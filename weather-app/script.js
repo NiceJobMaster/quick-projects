@@ -1,6 +1,6 @@
 const getWeather = async (city) => {
   const response = await fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=6c375a9dcfc6af1ff2fe5c2411c5605e`
+    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=6c375a9dcfc6af1ff2fe5c2411c5605e`
   );
   const JSONData = await response.json();
   if (JSONData) {
