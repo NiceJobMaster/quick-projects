@@ -1,6 +1,6 @@
 # Quick Projects
 
-```json
+```
 Countdown Timer
 Drawing App
 Github Profiles
